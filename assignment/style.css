@@ -1,3 +1,23 @@
 header {
     background-color: cornflowerblue;
 }
+
+h2 {
+    background-color: darkcyan;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    border: 1px solid #ccc;
+}
+
+.img-container img {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
